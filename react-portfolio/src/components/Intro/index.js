@@ -1,3 +1,5 @@
+import React from 'react'
+import DownloadButton from '../DownloadButton'
 import './index.css'
 
 const Intro = () => {
@@ -6,7 +8,10 @@ const Intro = () => {
         <div id="intro-content">
             <h1>Scotty Boy</h1>
             <h2>Computer Engineering Student</h2>
-            <a href="Resume02.pdf" download="Kunal_Singla_Resume.pdf" class="btn-rounded-white">Download Resume</a>
+            <DownloadButton
+        fileUrl="../../assets/documents/Resume 01.pdf"
+        fileName="Scott_Figueroa_Weston_Resume.pdf"
+      />
         </div>
 
         <div id="intro-overlay"></div>
