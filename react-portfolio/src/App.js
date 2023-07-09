@@ -1,10 +1,12 @@
 // import Head from './components/Head'
-import Education from './components/Education'
 import './App.scss'
+
+import Education from './components/Education'
 import Projects from './components/Projects'
 import Intro from './components/Intro'
 import About from './components/About'
 import Head from './components/Head'
+import Experience from './components/Experience'
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Head/>
       <Intro/>
       <About/>
+      <Experience/>
       <Education/>
       <Projects/>
     </div>
