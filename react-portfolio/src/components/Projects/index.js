@@ -1,39 +1,36 @@
-import Loader from 'react-loaders'
+import React from 'react';
+import './index.css';
 import ECE5 from '../../assets/images/logo1.png'
-import './index.scss'
-
 const Projects = () => {
-
   return (
-    <>
-      <div className="container about-page">
-        <div className="text-zone">
-          <h1>
-            Projects
-          </h1>
-          <p>
-            These are my projects
-          </p>
-          <p align="LEFT">
-           I hope you like them
-          </p>
-          <p>
-            
-          </p>
-        </div>
+    <section className="projects-container">
+      <h2 class= "heading">Projects</h2>
+      <ul>
+        <li className="project">
+          <img class="project-image" src={ECE5}  alt="Project 1" />
+          <div className="project-info">
+            <p>Project 1 description</p>
+            <a className="project-link" href="#">Project link</a>
+          </div>
+        </li>
+        <li className="project">
+          <img class="project-image" src={ECE5}  alt="Project 1" />
+          <div className="project-info">
+            <p>Project 1 description</p>
+            <a className="project-link" href="#">Project link</a>
+          </div>
+        </li>
+        <li className="project">
+          <img class="project-image" src={ECE5}  alt="Project 1" />
+          <div className="project-info">
+            <p>Project 1 description</p>
+            <a className="project-link" href="#">Project link</a>
+          </div>
+        </li>
+        {/* Add more list items for additional projects */}
+      </ul>
+    </section>
+  );
+};
 
-        <div className = "stage-image">
-            <div className = "image">
-            <img src = {ECE5} alt = "ECE5"></img>
-            </div>
-        
-
-
-        </div>
-      </div>
-      <Loader type="pacman" />
-    </>
-  )
-}
-
-export default Projects
+export default Projects;
