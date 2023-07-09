@@ -10,21 +10,21 @@ const Projects = () => {
           <img class="project-image" src={ECE5}  alt="Project 1" />
           <div className="project-info">
             <p>Project 1 description</p>
-            <a className="project-link" href="#">Project link</a>
+            <a className="project-link" href="google.com">Project link</a>
           </div>
         </li>
         <li className="project">
           <img class="project-image" src={ECE5}  alt="Project 1" />
           <div className="project-info">
             <p>Project 1 description</p>
-            <a className="project-link" href="#">Project link</a>
+            <a className="project-link" href="google.com">Project link</a>
           </div>
         </li>
         <li className="project">
           <img class="project-image" src={ECE5}  alt="Project 1" />
           <div className="project-info">
             <p>Project 1 description</p>
-            <a className="project-link" href="#">Project link</a>
+            <a className="project-link" href="google.com">Project link</a>
           </div>
         </li>
         {/* Add more list items for additional projects */}

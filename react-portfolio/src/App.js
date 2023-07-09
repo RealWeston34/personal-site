@@ -7,6 +7,7 @@ import Intro from './components/Intro'
 import About from './components/About'
 import Head from './components/Head'
 import Experience from './components/Experience'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Experience/>
       <Education/>
       <Projects/>
+      <Contact/>
     </div>
   )
 }
