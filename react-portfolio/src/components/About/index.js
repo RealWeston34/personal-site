@@ -20,7 +20,7 @@ const About = () => {
             About me
           </h1>
           <p>
-            Hello! I am a computer engineering student at UCSB looking for part time work during the summer
+            Hello! I am a computer engineering student at UCSB looking for part time work during the schoolyear and full time work during the summer
           </p>
           <p align="LEFT">
             I'm quiet confident, naturally curious, and perpetually working on
@@ -54,7 +54,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-pulse" />
     </>
   )
 }

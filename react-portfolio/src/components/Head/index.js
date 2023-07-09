@@ -2,14 +2,9 @@
 import logo from '../../assets/images/logo1.png'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Nav, Navbar } from 'react-bootstrap'
-import {useRef} from 'react'
 import './index.css'
 
 
-const ref = useRef(null);
-const handleCLick = () => {
-    ref.current?.scrollIntoView({behavior: 'smooth'})
-};
 
 const Head = () => {
     return (
@@ -23,7 +18,7 @@ const Head = () => {
 
                 <Navbar.Collapse>
                 <Nav>
-                        <button onClick={handleCLick}>About</button>
+                        <button>About</button>
                         <Nav.Link href = "Experience">Experience</Nav.Link>
                         <Nav.Link href = "Education">Education</Nav.Link>
                         <Nav.Link href = "Skills">Skills</Nav.Link>
@@ -32,13 +27,6 @@ const Head = () => {
                 </Navbar.Collapse>
 
             </Navbar>
-            <div className = "content"id = "home">
-                This is content
-            </div>
-
-            <div className = "content"id = "projects">
-                These are my projects
-            </div>
         </div>
     )
 };
