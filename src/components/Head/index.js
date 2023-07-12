@@ -2,7 +2,7 @@ import logo from '../../assets/images/logo1.png'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Nav, Navbar } from 'react-bootstrap'
 import './index.css'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Head = () => {
     

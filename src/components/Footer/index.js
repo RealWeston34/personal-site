@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="footer-content">
         <p>© 2023 Scotty. All rights reserved.</p>
         <div className="footer-icons">
-          <img src={logo} className="fab fa-facebook"/>
-          <img src={logo} className="fab fa-twitter"/>
-          <img src={logo} className="fab fa-instagram"/>
+          <img src={logo} alt = "github" className="fab fa-facebook"/>
+          <img src={logo} alt="linkedin" className="fab fa-twitter"/>
+          <img src={logo} alt="email" className="fab fa-instagram"/>
         </div>
       </div>
     </footer>
