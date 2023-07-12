@@ -18,12 +18,18 @@
     font-size: 4rem;
     font-weight: bold;
     color: white;
+    margin: 10px;
   }
   
   #intro-content h2 {
     font-size: 2rem;
     font-weight: bold;
     color: white;
+    margin: 10px;
+  }
+
+  #intro-content #button-area {
+    margin: 20px;
   }
   
   #intro-content a {
@@ -60,3 +66,8 @@
     font-size: 2rem;
     color: white;
   }
+
+.head-container {
+  display: flex;
+  justify-content: center;
+}

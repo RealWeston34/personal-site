@@ -3,6 +3,7 @@ import './index.css';
 import ECE5 from '../../assets/images/logo1.png'
 const Projects = () => {
   return (
+    <div id="projects" className="projects-block">
     <section className="projects-container">
       <h2 class= "heading">Projects</h2>
       <ul>
@@ -30,6 +31,7 @@ const Projects = () => {
         {/* Add more list items for additional projects */}
       </ul>
     </section>
+    </div>
   );
 };
 

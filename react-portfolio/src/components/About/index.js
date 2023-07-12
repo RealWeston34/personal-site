@@ -4,9 +4,9 @@ import './index.css'
 const About = () => {
 
   return (
-      <div className="container about-page">
+      <div id="about" className="container-about-page">
         <div className="text-zone">
-          <h1>
+          <h1 align="CENTER">
             About me
           </h1>
           <p>
@@ -20,7 +20,7 @@ const About = () => {
             
           </p>
         </div>
-      <Loader type="ball-pulse" />
+      <Loader type="pacman" />
       </div>
   )
 }

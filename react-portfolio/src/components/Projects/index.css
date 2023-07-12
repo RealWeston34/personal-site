@@ -1,3 +1,9 @@
+.projects-block {
+  padding: 50px 0;
+  background-color: #333;
+}
+
+
 .project {
   display: flex;
   align-items: center;

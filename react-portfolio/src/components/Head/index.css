@@ -1,13 +1,20 @@
-.bg-myRed{
+.bg-myRed {
     background-color: crimson;
-}
-
-.content{
+  }
+  
+  .content {
     margin: 60px;
     padding: 12px;
-    height:3000px;
-}
-
-.coloring{
-    color:black;
-}
+    height: 10px;
+  }
+  
+  .coloring {
+    color: #9b8ff1;
+  }
+  
+  .head {
+    top: 0;
+    z-index: 100;
+    width: 50%;
+  }
+  

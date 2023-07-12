@@ -1,17 +1,24 @@
 import React from 'react'
 import DownloadButton from '../DownloadButton'
 import './index.css'
+import Head from '../Head/'
 
 const Intro = () => {
     return (
         <div id="intro">
+            <div class="head-container">
+                <Head/>
+            </div>
+            
         <div id="intro-content">
             <h1>Scotty Boy</h1>
             <h2>Computer Engineering Student</h2>
+            <div id="button-area">
             <DownloadButton
         fileUrl="../../assets/documents/Resume 01.pdf"
         fileName="Scott_Figueroa_Weston_Resume.pdf"
       />
+        </div>
         </div>
 
         <div id="intro-overlay"></div>
