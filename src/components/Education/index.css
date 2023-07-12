@@ -1,5 +1,11 @@
 #education {
   padding: 50px 0;
+  background-color: #181A1B;
+  border-top: 2px solid #00001c;
+}
+
+#education h2 {
+  color: white;
 }
 
 .education-block {
@@ -8,5 +14,6 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    color: white;
   }
   

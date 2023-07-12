@@ -1,11 +1,14 @@
 .container-about-page {
   padding: 50px 0;
+  background-color: #181A1B;
+  border-top: 2px solid #00001c;
 }
 
 .text-zone {
   margin: 0 auto;
   max-width: 800px;
   padding: 20px;
+  color: white;
 }
 
 

@@ -1,6 +1,12 @@
 #experience {
     padding: 50px 0;
-    background-color: #333
+    background-color: #333;
+    border-top: 2px solid #00001c;
+
+}
+
+#experience h2 {
+    color: white;
 }
 
 #experience-timeline {
@@ -29,7 +35,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: darkred;
+    background: #00004d;
 }
 
 .vtimeline-icon i {
@@ -47,12 +53,14 @@
 .vtimeline-date {
     display: block;
     margin-bottom: 20px;
+    color: white;
 }
 
 .vtimeline-content {
     position: relative;
     border-left: 4px solid #333;
     padding-left: 30px;
+    color: white;
 }
 
 .vtimeline-content h3 {

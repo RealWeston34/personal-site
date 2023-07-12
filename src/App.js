@@ -1,5 +1,5 @@
 // import Head from './components/Head'
-import './App.scss'
+import './index.css'
 
 import Education from './components/Education'
 import Projects from './components/Projects'
