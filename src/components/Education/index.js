@@ -16,13 +16,7 @@ const Education = () => {
                 Cumulative GPA: 3.97
             </li>
             <li>
-                CompE Major GPA: 3.9
-            </li>
-            <li>
-                Relevant Math Course: Linear Algebra, Differential Eq., Vector Calculus, Discreet Math
-            </li>
-            <li>
-                Relevant Computer Science Courses: Data Structures, Object Oriented Design, Algorithms
+                Dean's List
             </li>
         </ul>
     </div>

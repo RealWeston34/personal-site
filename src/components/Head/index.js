@@ -1,11 +1,10 @@
-import logo from '../../assets/images/logo1.png'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Nav, Navbar } from 'react-bootstrap'
 import { Link } from "react-scroll";
 import github from '../../assets/images/github-icon.png'
 import linkedin from '../../assets/images/linkedin-icon.png'
 import email from '../../assets/images/email-icon.png'
-
+import headshot from '../../assets/images/Beach-Photo.png'
 import './index.css'
 
 const Head = () => {
@@ -14,7 +13,7 @@ const Head = () => {
     <div className="head">
       <Navbar bg="dark" variant="dark" sticky="top" expand="lg" collapseOnSelect>
         <Navbar.Brand>
-          <img src={logo} alt="placeholder" width="40px" height="40px" />
+          <img src={headshot} alt="placeholder" width="40px" height="40px" />
         </Navbar.Brand>
 
         <Navbar.Toggle />

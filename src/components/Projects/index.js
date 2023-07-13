@@ -1,8 +1,9 @@
 import React from 'react';
-import './index.css';
-import ECE5 from '../../assets/images/logo1.png'
 import sentSub from '../../assets/images/SentimentSub.pdf.png'
 import chatCheck from '../../assets/images/chatcheck.png'
+import cat from '../../assets/images/CATScan.png'
+import './index.css';
+
 const Projects = () => {
   return (
     <div id="projects" className="projects-block">
@@ -26,8 +27,9 @@ const Projects = () => {
           </div>
         </li>
         <li className="project">
-          <img class="project-image" src={ECE5}  alt="Project 1" />
+          <img class="project-image" src={cat}  alt="Project 3" />
           <div className="project-info">
+            <h2>Algebraic Geometry</h2>
             <p>Project 1 description</p>
             <a className="project-link" href="google.com">Project link</a>
           </div>
