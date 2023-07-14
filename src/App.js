@@ -1,5 +1,5 @@
 // import Head from './components/Head'
-import './index.css'
+import './App.scss'
 
 import Education from './components/Education'
 import Projects from './components/Projects'
@@ -13,7 +13,6 @@ function App() {
   return (
 
     <div>
-
       <Intro />
       <About/>
       <Experience/>

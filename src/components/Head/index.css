@@ -2,19 +2,18 @@
     background-color: crimson;
   }
   
-  .content {
-    margin: 60px;
-    padding: 12px;
-    height: 10px;
-  }
-  
-  .coloring {
-    color: #9b8ff1;
-  }
-  
-  .head {
-    top: 0;
-    z-index: 100;
-    width: 50%;
-  }
-  
+.content {
+  margin: 60px;
+  padding: 12px;
+  height: 10px;
+}
+
+.coloring {
+  color: #9b8ff1;
+}
+
+.head {
+  top: 0;
+  z-index: 100;
+  width: 50%;
+}
