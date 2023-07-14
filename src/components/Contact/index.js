@@ -2,7 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './index.scss'
 
-
+const serviceID = process.env.REACT_APP_serviceID;
+const templateID = process.env.REACT_APP_templateID;
+const publicKey = process.env.REACT_APP_publicKey
 const Contact = () => {
 
     const form = useRef();
@@ -10,7 +12,7 @@ const Contact = () => {
         const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm(import.meta.env.REACT_APP_serviceID, import.meta.env.REACT_APP_templateID, form.current, import.meta.env.REACT_APP_publicKey)
+        emailjs.sendForm(serviceID, templateID, form.current, publicKey)
             .then((result) => {
                 alert('Message successfuly sent!');
                 window.location.reload(false);
