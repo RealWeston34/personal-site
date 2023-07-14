@@ -15,7 +15,7 @@ const Intro = () => {
             <h2>Computer Engineering Student</h2>
             <div id="button-area">
             <DownloadButton
-        fileUrl="../../assets/documents/Resume 01.pdf"
+        fileUrl="/documents/Resume-01.pdf"
         fileName="Scott_Figueroa_Weston_Resume.pdf"
       />
         </div>

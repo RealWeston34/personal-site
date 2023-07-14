@@ -20,3 +20,6 @@ footer {
 
   }
   
+  .footer-icons a:hover img {
+    opacity: 0.5;
+  }
