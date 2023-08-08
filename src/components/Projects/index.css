@@ -46,3 +46,15 @@
   font-size: 2rem;
   margin-bottom: 20px;
 }
+
+.project-image {
+  transition: transform 0.2s;
+}
+
+.project-image:hover {
+  transform: scale(1.1);
+}
+
+
+
+

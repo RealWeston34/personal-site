@@ -71,3 +71,8 @@
   display: flex;
   justify-content: center;
 }
+
+#button-area {
+  display: flex;
+  justify-content: center;
+}

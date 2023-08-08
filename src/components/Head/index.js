@@ -60,7 +60,7 @@ const Head = () => {
             <Nav.Link>
             <Link
                 activeClass="active"
-                to="contact"
+                to="container-contact-page"
                 spy={true}
                 smooth={true}
                 offset={0}

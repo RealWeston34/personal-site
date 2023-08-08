@@ -15,7 +15,7 @@ const Intro = () => {
             <h2>Computer Engineering Student</h2>
             <div id="button-area">
             <DownloadButton
-        fileUrl="/documents/Resume-01.pdf"
+        fileUrl="https://raw.githubusercontent.com/Realweston34/personal-site/main/public/documents/RESUME-01.pdf"
         fileName="Scott_Figueroa_Weston_Resume.pdf"
       />
         </div>
@@ -33,3 +33,4 @@ const Intro = () => {
 }
 
 export default Intro
+
