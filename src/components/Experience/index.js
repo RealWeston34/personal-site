@@ -7,7 +7,7 @@ const Experience = () => {
         <div id="experience-timeline">    
 	    <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">June 2023 – Present</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
                 <h3>Smart Signals and Systems Lab</h3>
-                <h4>Undergraduate Research Assistant</h4>
+                <h4>Computer Vision Algorithm Rese</h4>
                 <ul>
 		    <li>
                         Research of self-supervised contrastive learning frameworks simCLR and MoCo v2

@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import { Nav, Navbar } from 'react-bootstrap'
 import { Link } from "react-scroll";
-import headshot from '../../assets/images/Beach-Photo.png'
+// import headshot from '../../assets/images/Beach-Photo.png'
 import './index.css'
 
 const Head = () => {
@@ -9,9 +9,7 @@ const Head = () => {
   return (
     <div className="head">
       <Navbar bg="dark" variant="dark" sticky="top" expand="lg" collapseOnSelect>
-        <Navbar.Brand>
-          <img src={headshot} alt="placeholder" width="40px" height="40px" />
-        </Navbar.Brand>
+        
 
         <Navbar.Toggle />
 
@@ -30,22 +28,22 @@ const Head = () => {
             <Nav.Link>
             <Link
                 activeClass="active"
-                to="education"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={50}
-            >Education</Link>
-            </Nav.Link>
-            <Nav.Link>
-            <Link
-                activeClass="active"
                 to="experience"
                 spy={true}
                 smooth={true}
                 offset={0}
                 duration={50}
             >Experience</Link>
+            </Nav.Link>
+            <Nav.Link>
+            <Link
+                activeClass="active"
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={50}
+            >Education</Link>
             </Nav.Link>
             <Nav.Link>
             <Link

@@ -27,7 +27,8 @@ const Projects = () => {
             <img class="project-image" src={sentSub} onClick={() => {setIsOpen(true); setPhotoIndex(0)}} alt="Project 1" />
             <div className="project-info">
               <h2>SentimentSub.com</h2>
-              <p>Combining predictions of audio and text sentiment models to generate color coded subtitles for user given MP4 files.</p>
+              <p>Uses ensemble of speech emotion recognition and text sentiment analysis to generate color coded subtitles for user given MP4 files. 
+                Model implemented using Scikit-learn. Wesbite created with Django and hosted on Google Cloud </p>
               <a className="project-link" href="https://github.com/hongytan/SentimentSub" rel="noreferrer" target = "_blank">Project link</a>
             </div>
           </li>
@@ -35,15 +36,21 @@ const Projects = () => {
             <img class="project-image" src={chatCheck} onClick={() => {setIsOpen(true); setPhotoIndex(1)}} alt="Project 2" />
             <div className="project-info">
               <h2>Chat Check</h2>
-              <p>Evaluates your rizz on a scale of 1-10</p>
+              <p>Chrome Extension that evaluates the quality of user's text messages.
+                  Calls the OpenAI API to give a numerical rating from 1-10 and provide feedback 
+                  to the user on how to write a better text message. Chrome extension written in React and hosted on OpenSea.
+              </p>
               <a className="project-link" href="https://devpost.com/software/chatcheck" rel="noreferrer" target = "_blank">Project link</a>
             </div>
           </li>
           <li className="project">
             <img class="project-image" src={cat} onClick={() => {setIsOpen(true); setPhotoIndex(2)}} alt="Project 3" />
             <div className="project-info">
-              <h2>Algebraic Geometry</h2>
-              <p>Project 1 description</p>
+              <h2>3D reconstruction pipeline</h2>
+              <p>Constructing a 3D image from 2D images using algebraic geometry techniques. 
+                Analyzing the features extracted from SIFT through geometric verification. 
+                Reconstruction is achieved through triangulation.
+              </p>
               <a className="project-link" href="google.com">Project link</a>
             </div>
           </li>
