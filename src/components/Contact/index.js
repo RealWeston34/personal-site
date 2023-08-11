@@ -2,9 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './index.scss'
 
-const serviceID = ENV.REACT_APP_serviceID;
-const templateID = ENV.REACT_APP_templateID;
-const publicKey = ENV.REACT_APP_publicKey;
+const serviceID = process.env.serviceID;
+const templateID = process.env.templateID;
+const publicKey = process.env.serviceID;
 const Contact = () => {
 
     const form = useRef();
