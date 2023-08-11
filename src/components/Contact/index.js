@@ -4,7 +4,7 @@ import './index.scss'
 
 const serviceID = process.env.serviceID;
 const templateID = process.env.templateID;
-const publicKey = process.env.serviceID;
+const publicKey = process.env.publicKey;
 const Contact = () => {
 
     const form = useRef();
