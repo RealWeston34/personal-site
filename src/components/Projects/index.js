@@ -51,7 +51,7 @@ const Projects = () => {
                 Analyzing the features extracted from SIFT through geometric verification. 
                 Reconstruction is achieved through triangulation.
               </p>
-              <a className="project-link" href="google.com">Project link</a>
+              <a className="project-link" href="https://raw.githubusercontent.com/Realweston34/personal-site/main/public/documents/drp-poster.pdf" rel="noreferrer" target = "_blank">Project link</a>
             </div>
           </li>
           {/* Add more list items for additional projects */}

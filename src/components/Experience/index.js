@@ -7,46 +7,61 @@ const Experience = () => {
         <div id="experience-timeline">    
 	    <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">June 2023 – Present</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
                 <h3>Smart Signals and Systems Lab</h3>
-                <h4>Computer Vision Algorithm Rese</h4>
+                <h4>Computer Vision Algorithm Researcher</h4>
                 <ul>
 		    <li>
-                        Research of self-supervised contrastive learning frameworks simCLR and MoCo v2
+            Used PyTorch to design a novel unsupervised image classification algorithm (DisCLR) which increased
+accuracy in downstream tasks by 10%.
                     </li>
 		    <li>
-                        Understanding the problem of dimensionality collapse in self-supervised contrastive learning models
+            Created python scripts to train model on CIFAR-10 dataset and measure accuracy using a linear classifier
+trained for 100 epochs.
                     </li>
 		    <li>
-                        Understanding NashAE architecture in order to achieve disentanglement in deep learning models 
+            Used Cuda library to save and load deep learning models onto GPU server for experimentation. 
                     </li>
 		    <li>
-                        Used NashAE architecture to disentangle contrastive learning models in order to increase effectiveness by 4%
+            Successfully reduced model training time by pretraining encoder to learn better representations of images.
                     </li>
 		    <li>
-                        Constructed deep learning models using pytorch
+            Researched various unsupervised computer vision models and gained familiarity with academic literature.
                     </li>
                 </ul>
             </div></div></div>
             <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">January 2023 – May 2023</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
-                <h3>UCSB</h3>
+                <h3>UCSB Directed Reading Program</h3>
                 <h4>Computer Vision Research Engineer</h4>
                 <ul>
 		    <li>
-                        Worked with a graduate student in the UCSB math department in
-                        reading algebraic geometry texts and academic papers
+            Worked with PhD student in developing a novel framework for 3D reconstruction of 2D images.
                     </li>
 		    <li>
-                        Gained insight into algebraic geometry concepts such as Ideals,
-                        varieties, manifolds, projective space, gröbner bases and various proof
-                        techniques
+            Used algebraic geometry techniques to verify feature extraction of SIFT algorithm to increase robustness.
 
                     </li>
 		    <li>
-                        Analyzed how to find intersection of geometric objects in 3D space
+            Designed method to verify feature position relative to camera to achieve reconstruction through
+triangulation.
+
                     </li>
 		    <li>
-                        Used knowledge of projective space to research techniques of 3D
-                        reconstruction from 2D images
+            Gained insight into algebraic geometry concepts through reading academic papers and textbooks.
 
+                    </li>
+                </ul>
+            </div></div></div>
+            <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">June 2023 – Present</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
+                <h3>UCSB SIMS</h3>
+                <h4>Engineering Intern</h4>
+                <ul>
+		    <li>
+            Designed a soft robotic arm using plastic sheet and pneumatic tubing.
+                    </li>
+		    <li>
+            Analyzed contraction of arm with MATLAB and created data visualizations with python to modify design
+                    </li>
+		    <li>
+            Used C++ to program Arduino for prototype of soft robotic arm that contracts upon human touch. 
                     </li>
                 </ul>
             </div></div></div>

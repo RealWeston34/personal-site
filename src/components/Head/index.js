@@ -58,6 +58,16 @@ const Head = () => {
             <Nav.Link>
             <Link
                 activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={50}
+            >Skills</Link>
+            </Nav.Link>
+            <Nav.Link>
+            <Link
+                activeClass="active"
                 to="container-contact-page"
                 spy={true}
                 smooth={true}

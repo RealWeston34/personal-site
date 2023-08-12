@@ -10,13 +10,13 @@ const Education = () => {
     <div class="education-block">
         <h3>University of California - Santa Barbara</h3>
         <span class="education-date">September 2022 - Present</span>
-        <h4>Bachelor of Science in Computer Engineering</h4>
+        <h4>B.S. Computer Engineering</h4>
         <ul>
             <li>
                 Cumulative GPA: 3.97
             </li>
             <li>
-                Dean's List
+                Dean's List Engineering
             </li>
         </ul>
     </div>

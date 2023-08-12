@@ -1,0 +1,27 @@
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #fff;
+    background: #115173;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+}
+
+#skills {
+    padding: 50px 15px;
+    text-align: center;
+    background: #181A1B;
+}
+
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+#skills h2 {
+    color: white;
+}

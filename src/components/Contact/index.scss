@@ -1,5 +1,5 @@
 .container-contact-page{
-  background-color: #181A1B;
+  background-color: #333;
   h1{
     display:flex;
     justify-content: center;
@@ -55,18 +55,19 @@
   }
 
   .flat-button {
-    color: #ffd700;
+    color: white;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 1px solid #ffd700;
+    border: 1px solid #181A1B;
     float: left;
     border-radius: 4px;
-    background: 0 0;
+    background: #181A1B;
     text-transform: uppercase;
     float: right;
     text-align: center;
     margin-right: 10px;
+    width: 100%;
   }
 }

@@ -15,5 +15,18 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     color: white;
-  }
-  
+}
+
+.education-block h3 {
+  float: left;
+}
+
+.education-block span {
+  float: right;
+}
+
+.education-block h4 {
+  font-weight: 500;
+  clear: both;
+}
+

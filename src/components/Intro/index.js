@@ -11,11 +11,11 @@ const Intro = () => {
             </div>
             
         <div id="intro-content">
-            <h1>Scotty Boy</h1>
+            <h1>Scott Figueroa Weston</h1>
             <h2>Computer Engineering Student</h2>
             <div id="button-area">
             <DownloadButton
-        fileUrl="https://raw.githubusercontent.com/Realweston34/personal-site/main/public/documents/RESUME-01.pdf"
+        fileUrl="https://raw.githubusercontent.com/Realweston34/personal-site/main/public/documents/RESUME-02.pdf"
         fileName="Scott_Figueroa_Weston_Resume.pdf"
       />
         </div>
