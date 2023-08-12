@@ -28,7 +28,7 @@ trained for 100 epochs.
                     </li>
                 </ul>
             </div></div></div>
-            <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">January 2023 – May 2023</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
+            <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">Jan. 2023 – May 2023</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
                 <h3>UCSB Directed Reading Program</h3>
                 <h4>Computer Vision Research Engineer</h4>
                 <ul>
@@ -50,7 +50,7 @@ triangulation.
                     </li>
                 </ul>
             </div></div></div>
-            <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">June 2023 – Present</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
+            <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">Aug. 2022 – Sep. 2022</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
                 <h3>UCSB SIMS</h3>
                 <h4>Engineering Intern</h4>
                 <ul>
