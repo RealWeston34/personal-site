@@ -2,12 +2,42 @@ import './index.css'
 
 const Experience = () => {
     return (
+
+        
         <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">    
+        <div id="experience-timeline">
+
+        <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">Sep. 2023 – Present</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
+                <h3>Advanced Life Technologies LLC</h3>
+                <h4>Machine Learning Intern</h4>
+                <ul>
+		    <li>
+            Developed deep learning algorithms for prosthetic arms with PyTorch, 
+            enabling personalized customization options and enhancing user comfort and functionality.
+                    </li>
+		    <li>
+            Used Kivy framework to implement GUI to instruct users through surgery simulation 
+            and allowed administrators to interface with surgical robot.
+                    </li>
+		    <li>
+            Programmed embedded systems using Python/C++ to allow efficient movement of various prosthetics.
+                    </li>
+		    <li>
+            Integrated Pulse Physiology Engine into surgical robot to achieve human-like responses to stimuli.
+                    </li>
+		    <li>
+            Incorporated conversational capabilities by integrating FastChat large language model into surgical robot.
+                    </li>
+            <li>
+            Used OpenCV to display camera video to GUI and save video logs as mp4 files.
+            </li>
+                </ul>
+            </div></div></div>
+
 	    <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">June 2023 – Present</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
                 <h3>Smart Signals and Systems Lab</h3>
-                <h4>Computer Vision Algorithm Researcher</h4>
+                <h4>Computer Vision Researcher</h4>
                 <ul>
 		    <li>
             Used PyTorch to design a novel unsupervised image classification algorithm (DisCLR) which increased
@@ -29,8 +59,8 @@ trained for 100 epochs.
                 </ul>
             </div></div></div>
             <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">Jan. 2023 – May 2023</span><div data-date="June 2022 – Sept. 2022" class="vtimeline-content">
-                <h3>UCSB Directed Reading Program</h3>
-                <h4>Computer Vision Research Engineer</h4>
+                <h3>Math Research Apprenticeship</h3>
+                <h4>Algorithm Researcher</h4>
                 <ul>
 		    <li>
             Worked with PhD student in developing a novel framework for 3D reconstruction of 2D images.
